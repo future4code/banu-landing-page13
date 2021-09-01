@@ -1,0 +1,145 @@
+
+
+/*inicio */
+
+.inicio{
+    margin-top: 80px;
+    background: url(img/inovação.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-size: 30px;
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+em {
+    color: orangered;
+    font-size: 60px;   
+}
+
+.botão1{
+    background-color: orangered;
+      position: absolute;
+      right:20px;
+      bottom: 200px;
+     transition-duration: 0.4s;
+     border-radius: 12px;
+     text-align:inherit;
+     display: inline-block;
+     border: none;
+     
+}
+.botão1:hover {
+    background-color: #ffab4b;
+    color: white;
+}
+ 
+
+/* Corpo1*/
+
+.conteinercorpo1{
+    margin: 100px;
+    display: flex;
+    align-items:center;
+    font-size: 20px;
+   grid-template-columns: 2, 1fr;   
+}
+
+.conteinercorpo1 em{
+    color: orangered;
+    font-size: 30px;
+}
+ 
+
+
+.conteinercorpo1 img{
+    height: 25%;
+    width: 30%;
+    margin-left: 300px;
+    box-shadow:  4px 3px 8px orangered;
+}
+
+.conteinercorpo1 button{
+    position: absolute;
+    bottom: -300px;
+    background-color: #fa8f03; /* Green */
+    border: none;
+    color: rgb(255, 151, 15);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.conteinercorpo1 button {
+
+    background-color: orangered; 
+    color: rgb(241, 228, 228); 
+    border:none;
+    border-radius: 12px;
+    padding: 14px 40px;
+    font-size: 20px;
+}
+
+.conteinercorpo1 button:hover {
+    background-color: #ffab4b;
+    color: white;
+}
+ 
+/*Corpo2*/
+
+.conteinercorpo2{
+    margin: 100px;
+    display: flex;
+    align-items:center;
+    font-size: 20px;
+   grid-template-columns: 2, 1fr;   
+}
+
+.conteinercorpo2 img{
+    height: 25%;
+    width: 30%;
+    margin-left: 200px;
+    box-shadow:  4px 3px 8px orangered;
+}
+
+.conteinercorpo2 button{
+    position: absolute;
+    bottom: -850px;
+    background-color: #fa8f03; /* Green */
+    border: none;
+    color: rgb(255, 151, 15);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.conteinercorpo2 h3{
+    font-size: 35px;
+}
+
+.conteinercorpo2 button {
+
+    background-color: orangered; 
+    color: rgb(241, 228, 228); 
+    border:none;
+    border-radius: 12px;
+    padding: 14px 40px;
+    font-size: 20px;
+}
+
+.conteinercorpo2 button:hover {
+    background-color: #ffab4b;
+    color: white;
+}
