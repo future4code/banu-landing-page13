@@ -40,7 +40,7 @@ em {
 
 /* Corpo1*/
 
-.conteinercorpo1{
+.conteiner-corpo1{
     margin: 100px;
     display: flex;
     align-items:center;
@@ -48,21 +48,23 @@ em {
    grid-template-columns: 2, 1fr;   
 }
 
-.conteinercorpo1 em{
+.conteiner-corpo1 em{
     color: orangered;
-    font-size: 30px;
+    font-size: 35px;
 }
- 
+.conteiner-corpo1 h3{
+    font-size: 30px;
+} 
 
 
-.conteinercorpo1 img{
+.conteiner-corpo1 img{
     height: 25%;
     width: 30%;
-    margin-left: 300px;
-    box-shadow:  4px 3px 8px orangered;
+    margin-left: 150px;
+    box-shadow:  8px 8px 10px orangered;
 }
 
-.conteinercorpo1 button{
+.conteiner-corpo1 button{
     position: absolute;
     bottom: -300px;
     background-color: #fa8f03; /* Green */
@@ -78,7 +80,7 @@ em {
     cursor: pointer;
 }
 
-.conteinercorpo1 button {
+.conteiner-corpo1 button {
 
     background-color: orangered; 
     color: rgb(241, 228, 228); 
@@ -88,14 +90,14 @@ em {
     font-size: 20px;
 }
 
-.conteinercorpo1 button:hover {
+.conteiner-corpo1 button:hover {
     background-color: #ffab4b;
     color: white;
 }
  
 /*Corpo2*/
 
-.conteinercorpo2{
+.conteiner-corpo2{
     margin: 100px;
     display: flex;
     align-items:center;
@@ -103,14 +105,14 @@ em {
    grid-template-columns: 2, 1fr;   
 }
 
-.conteinercorpo2 img{
+.conteiner-corpo2 img{
     height: 25%;
     width: 30%;
-    margin-left: 200px;
-    box-shadow:  4px 3px 8px orangered;
+    margin-left: 280px;
+    box-shadow:  8px 8px 10px orangered;
 }
 
-.conteinercorpo2 button{
+.conteiner-corpo2 button{
     position: absolute;
     bottom: -850px;
     background-color: #fa8f03; /* Green */
@@ -125,11 +127,11 @@ em {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-.conteinercorpo2 h3{
+.conteiner-corpo2 h3{
     font-size: 35px;
 }
 
-.conteinercorpo2 button {
+.conteiner-corpo2 button {
 
     background-color: orangered; 
     color: rgb(241, 228, 228); 
@@ -139,7 +141,7 @@ em {
     font-size: 20px;
 }
 
-.conteinercorpo2 button:hover {
+.conteiner-corpo2 button:hover {
     background-color: #ffab4b;
     color: white;
 }
