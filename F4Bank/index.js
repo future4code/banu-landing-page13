@@ -18,3 +18,5 @@ function toggleFaqList(item) {
 faqList.forEach((item) => {
   item.addEventListener('click', () => toggleFaqList(item));
 });
+
+console.log('Test');
