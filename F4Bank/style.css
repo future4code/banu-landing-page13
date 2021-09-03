@@ -187,3 +187,48 @@ svg path {
     top: -7px;
   }
 }
+
+/* Seção quem-somos */
+
+#texto-quem-somos {
+  text-align: center;
+  /* color: rgb(255, 255, 255); */
+  font-size: x-large;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 40%;
+}
+
+.quem-somos {
+  background: url("img/sobre-nos.jpg");
+  background-size: cover;
+  height: 100vh  
+}
+
+/* Seção Trabalhe Conosco */
+.trabalhe-conosco {
+  display: flex;
+  height: 89vh;
+}
+
+.trabalhe-conosco img {
+  margin-right: 2%;
+}
+
+
+#texto-trabalhe-conosco {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+.trabalhe-conosco h2 {
+  align-self: center;
+}
+
+.trabalhe-conosco button {
+  width: 30%;
+  font-size: large;
+  align-self: center;
+}
