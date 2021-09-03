@@ -46,6 +46,7 @@ img {
 
 .logo {
   max-width: 45px;
+  border-radius: 50%;
 }
 
 .menu-lista {
@@ -189,6 +190,8 @@ svg path {
   }
 }
 
+/* Seção Pergunta Frequentes */
+
 .faq {
   margin-top: 80px;
   padding: 60px 0px;
@@ -261,6 +264,8 @@ svg path {
   }
 }
 
+/* media queries Perguntas frequentes */
+
 @media (max-width: 425px) {
   .faq-container h3 {
     font-size: 24px;
@@ -272,5 +277,69 @@ svg path {
 
   .faq-item dd {
     font-size: 16px;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background: #111110;
+  color: #fff;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-info img {
+  max-width: 45px;
+  border-radius: 50%;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icone {
+  display: block;
+  transition: all 0.2s;
+}
+
+.icone svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icone svg path {
+  fill: #fff;
+}
+
+.icone:hover svg path {
+  fill: #ff914d;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-link {
+    margin-top: 40px;
   }
 }
