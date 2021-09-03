@@ -27,7 +27,7 @@ img {
 
 .container-header {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 15px 20px;
 
@@ -46,6 +46,7 @@ img {
 
 .logo {
   max-width: 45px;
+  border-radius: 50%;
 }
 
 .menu-lista {
@@ -139,6 +140,7 @@ svg path {
     right: 0;
     z-index: 1000;
     padding: 20px;
+    background: #fff;
   }
 
   .menu-lista {
@@ -147,7 +149,7 @@ svg path {
 
   .menu-lista li {
     font-size: 24px;
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #e7e6e7;
   }
 
@@ -164,8 +166,7 @@ svg path {
 
   .header-content.active {
     display: block;
-    height: calc(100vh -70px);
-    overflow-y: auto;
+    height: 100vh;
   }
 
   .btn-mobile {
@@ -187,6 +188,7 @@ svg path {
     top: -7px;
   }
 }
+
 
 /* Seção quem-somos */
 
