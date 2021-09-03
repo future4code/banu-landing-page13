@@ -27,7 +27,7 @@ img {
 
 .container-header {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 15px 20px;
 
@@ -139,6 +139,7 @@ svg path {
     right: 0;
     z-index: 1000;
     padding: 20px;
+    background: #fff;
   }
 
   .menu-lista {
@@ -185,5 +186,91 @@ svg path {
   .btn-active .icon-hamburguer::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+}
+
+.faq {
+  margin-top: 80px;
+  padding: 60px 0px;
+}
+
+.faq-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+.faq-container h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.faq-item dt {
+  padding: 30px 20px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  transition: all 0.2s;
+}
+
+.dt-icon {
+  font-size: 30px;
+  color: #ff914d;
+  font-weight: 300;
+  transition: all 0.2s;
+}
+
+.faq-item dt.dt-active .dt-icon {
+  transform: rotate(90deg);
+}
+
+.faq-item dd {
+  display: none;
+  padding: 0 20px 30px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #101010de;
+}
+
+.faq-item dd.dt-active {
+  display: block;
+  animation: slideDown 1s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 425px) {
+  .faq-container h3 {
+    font-size: 24px;
+  }
+
+  .faq-item dt {
+    font-size: 18px;
+  }
+
+  .faq-item dd {
+    font-size: 16px;
   }
 }
