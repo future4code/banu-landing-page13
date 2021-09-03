@@ -189,158 +189,50 @@ svg path {
   }
 }
 
-/* Seção Pergunta Frequentes */
 
-.faq {
-  margin-top: 80px;
-  padding: 60px 0px;
+/* Seção quem-somos */
+
+#texto-quem-somos {
+  text-align: center;
+  /* color: rgb(255, 255, 255); */
+  font-size: x-large;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 40%;
 }
 
-.faq-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0px 20px;
+.quem-somos {
+  background: url("img/sobre-nos.jpg");
+  background-size: cover;
+  height: 100vh  
 }
 
-.faq-container h3 {
-  font-size: 28px;
-  margin-bottom: 30px;
-}
-
-.faq-item {
-  border-radius: 3px;
-  background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-  margin-bottom: 30px;
-}
-
-.faq-item dt {
-  padding: 30px 20px;
-  font-size: 24px;
-  font-weight: 500;
-  cursor: pointer;
-
+/* Seção Trabalhe Conosco */
+.trabalhe-conosco {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  transition: all 0.2s;
+  height: 89vh;
 }
 
-.dt-icon {
-  font-size: 30px;
-  color: #ff914d;
-  font-weight: 300;
-  transition: all 0.2s;
+.trabalhe-conosco img {
+  margin-right: 2%;
 }
 
-.faq-item dt.dt-active .dt-icon {
-  transform: rotate(90deg);
-}
 
-.faq-item dd {
-  display: none;
-  padding: 0 20px 30px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #101010de;
-}
-
-.faq-item dd.dt-active {
-  display: block;
-  animation: slideDown 1s forwards;
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -30px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-/* media queries Perguntas frequentes */
-
-@media (max-width: 425px) {
-  .faq-container h3 {
-    font-size: 24px;
-  }
-
-  .faq-item dt {
-    font-size: 18px;
-  }
-
-  .faq-item dd {
-    font-size: 16px;
-  }
-}
-
-/* Footer */
-
-.footer {
-  background: #111110;
-  color: #fff;
-}
-
-.footer-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 20px;
-
+#texto-trabalhe-conosco {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: x-large;
 }
 
-.footer-info {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+.trabalhe-conosco h2 {
+  align-self: center;
 }
 
-.footer-info img {
-  max-width: 45px;
-  border-radius: 50%;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.icone {
-  display: block;
-  transition: all 0.2s;
-}
-
-.icone svg {
-  width: 20px;
-  height: 20px;
-}
-
-.icone svg path {
-  fill: #fff;
-}
-
-.icone:hover svg path {
-  fill: #ff914d;
-}
-
-@media (max-width: 600px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .social-link {
-    margin-top: 40px;
-  }
+.trabalhe-conosco button {
+  width: 30%;
+  font-size: large;
+  align-self: center;
 }
 
 .teste {
