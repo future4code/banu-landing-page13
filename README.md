@@ -18,3 +18,9 @@
 ## O que não funciona
 
 - Os botões
+
+## Integrantes
+
+ - Flávio José Fonseca Filho
+ - Laís de Medeiros Silva
+ - Luiz Gustavo Santos
