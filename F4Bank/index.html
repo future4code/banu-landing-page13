@@ -11,22 +11,20 @@
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
     <title>F4Bank</title>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
       <div class="container-header">
         <img class="logo" src="img/f4bank.png" alt="Logo F4Bank" />
         <div class="header-content">
           <nav class="menu">
             <ul class="menu-lista">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Quem somos</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Contato</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Trabalhe Conosco</a></li>
+              <li><a href="#inicio">Home</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#quem-somos">Quem somos</a></li>
+              <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
+              <li><a href="#faq">FAQ</a></li>
             </ul>
           </nav>
           <a class="btn-login" href="#"
@@ -57,125 +55,153 @@
         </button>
       </div>
     </header>
-     <main>
-    <section class="inicio">
-            
-            <h1>Tradição e Inovação <br> no seu bolso, conheça <em> F4Bank</em></h1>
-            <p><h2>Foi desenvolvido após anos de pesquisa, <br>já ajudamos mais de 100 milhoes de pessoas<br> a ter independência financeira.</h2> </p>
-            <button class="botão1"><h3>Peça sua conta e Cartão de credito <br> F4Bank</h3></button>
-        </section>
+    <main>
+      <section class="inicio" id="inicio">
+        <h1>
+          Tradição e Inovação <br />
+          no seu bolso, conheça <em> F4Bank</em>
+        </h1>
 
-        <section class="conteiner-corpo1">
-                 <button>Saiba mais</button>
-                <p><h3><em>Pix, transferências e saques gratuitos</em><br>Envie e receba dinheiro usando Pix, TEDs.<br>
-                Transferências de forma rápida e prática,
-                <br>para todos os bancos sem sair de casa.</h3> </p>  
-                <img src="img/celular-mao-f4bank.png" alt="Uma mão segurando um celular em cima de um teclado de computador">       
-        </section>
-        
-        <section class="conteiner-corpo2">
-            <button> Abra sua Conta </button>
-            <h3>Do que mais voçê precisa?<br>Não fique olhando relógio,<br> faça como ele : mexa-se</h3>
-            <img src="img/carta--mao-f4bank.png" alt=" uma mão segurando cartão">
-        </section>
-    <section class="quem-somos">
-      <section id="texto-quem-somos">
-        <h2>Somos um banco sólido e seguro, com 40 anos de tradição.</h2>
-        <p>
-          Estamos sempre em busca de inovação e soluções que facilitem a sua
-          vida. Implementamos o ecossistema da nossa organização com uma solução
-          especial para a geração hiperconectada. Oferecemos uma plataforma
-          simples e intuitiva para que nossos clientes possam organizar suas
-          vidas financeiras de modo a conquistarem seus objetivos.
-        </p>
+        <button class="botão1">Abra sua conta</button>
       </section>
-    </section>
 
-    <section class="trabalhe-conosco">
-      <img
-        src="/img/trabalhe-conosco.jpeg"
-        alt="Imagem de uma mulher sentada em um mesinha trabalhando com um celular em uma mão e digitando no notebook com a outra"
-      />
-      <section id="texto-trabalhe-conosco">
-        <h2>Trabalhe Conosco</h2>
-        <h3>Tecnologia</h3>
-        <p>
-          Desenvolvemos nossa própria tecnologia explorando linguagens
-          funcionais e projetos open source.
-        </p>
-        <h3>Design</h3>
-        <p>
-          Questionamos toda complexidade com serviços financeiros para oferecer
-          sempre a melhor experiência.
-        </p>
-        <h3>Customer Experience</h3>
-        <p>
-          Facilitamos a vida do cliente ao máximo oferecendo tudo que está ao
-          nosso alcance. O seu problema sempre será nosso.
-        </p>
-        <button>Vagas abertas</button>
+      <section class="conteiner-corpo1" id="servicos">
+        <div class="content-corpo1">
+          <div class="content-corpo1-info">
+            <h3>Pix, transferências e saques gratuitos</h3>
+            <p>
+              Envie e receba dinheiro usando Pix e TEDs. Transferências de forma
+              rápida e prática, para todos os bancos sem sair de casa.
+            </p>
+
+            <button>Saiba mais</button>
+          </div>
+          <img
+            src="img/celular-mao-f4bank.png"
+            alt="Uma mão segurando um celular em cima de um teclado de computador"
+          />
+        </div>
       </section>
-    </section>
-    <section class="faq">
-      <div class="faq-container">
-        <h3>Perguntas Frequentes</h3>
 
-        <dl class="faq-lista">
-          <div class="faq-item">
-            <dt>O que é o F4Bank? <span class="dt-icon">&#62;</span></dt>
-            <dd>
-              O F4Bank é uma fintech que desenvolve soluções simples, seguras e
-              100% digitais para sua vida financeira. Hoje, é o maior banco
-              digital independente do Brasil e conta com mais de 30 milhões de
-              clientes em todos os 5.570 municípios do Brasil.
-            </dd>
+      <section class="conteiner-corpo2">
+        <div class="content-corpo2">
+          <div class="content-corpo2-info">
+            <h3>
+              Do que mais voçê precisa? Não fique olhando relógio,<br />
+              faça como ele:<br />
+              mexa-se
+            </h3>
+            <button>Adiquira seu cartão</button>
           </div>
+          <img
+            src="img/carta--mao-f4bank.png"
+            alt=" uma mão segurando cartão"
+          />
+        </div>
+      </section>
+      <section class="quem-somos" id="quem-somos">
+        <div id="texto-quem-somos">
+          <h2>Somos um banco sólido e seguro, com 40 anos de tradição.</h2>
+          <p>
+            Estamos sempre em busca de inovação e soluções que facilitem a sua
+            vida. Implementamos o ecossistema da nossa organização com uma
+            solução especial para a geração hiperconectada. Oferecemos uma
+            plataforma simples e intuitiva para que nossos clientes possam
+            organizar suas vidas financeiras de modo a conquistarem seus
+            objetivos.
+          </p>
+        </div>
+      </section>
 
-          <div class="faq-item">
-            <dt>
-              O que é a conta do F4Bank? <span class="dt-icon">&#62;</span>
-            </dt>
-            <dd>
-              A conta do F4Bank é a nossa conta digital e, assim como tudo no
-              F4Bank, foi desenhada para todos que desejam um serviço
-              transparente, simples e sem tarifas abusivas. Ela foi feita para
-              redefinir a maneira como você cuida do seu dinheiro.
-            </dd>
+      <section class="trabalhe-conosco" id="trabalhe-conosco">
+        <div class="conteudo-trabalhe-conosco">
+          <img
+            src="img/trabalhe-conosco.jpeg"
+            alt="Imagem de uma mulher sentada em um mesinha trabalhando com um celular em uma mão e digitando no notebook com a outra"
+          />
+          <div id="texto-trabalhe-conosco">
+            <h2>Trabalhe Conosco</h2>
+            <h3>Tecnologia</h3>
+            <p>
+              Desenvolvemos nossa própria tecnologia explorando linguagens
+              funcionais e projetos open source.
+            </p>
+            <h3>Design</h3>
+            <p>
+              Questionamos toda complexidade com serviços financeiros para
+              oferecer sempre a melhor experiência.
+            </p>
+            <h3>Customer Experience</h3>
+            <p>
+              Facilitamos a vida do cliente ao máximo oferecendo tudo que está
+              ao nosso alcance. O seu problema sempre será nosso.
+            </p>
+            <button>Vagas abertas</button>
           </div>
-          <div class="faq-item">
-            <dt>
-              Quem pode ter a conta do F4Bank?<span class="dt-icon">&#62;</span>
-            </dt>
-            <dd>
-              A conta do F4Bank foi feita para todos. Não é preciso passar por
-              uma análise de crédito, você abre sua conta direto no nosso
-              aplicativo, tudo rápido e sem burocracia. Nossas únicas restrições
-              são: ter no mínimo 18 anos, ser residente do Brasil.
-            </dd>
-          </div>
-          <div class="faq-item">
-            <dt>
-              Quais são os benefícios do Cartão de Crédito F4Bank?<span
-                class="dt-icon"
-                >&#62;</span
-              >
-            </dt>
-            <dd>
-              Além do controle simples e transparente dos seus gastos em tempo
-              real (sem nenhuma tarifa ou anuidade), você ainda pode receber
-              descontos ao antecipar suas parcelas. No aplicativo você ainda
-              pode bloquear e desbloquear seu cartão, pedir aumento de limite e
-              mudar sua data de vencimento. Outra funcionalidade bem legal é o
-              pagamento por aproximação. Vale conferir cada funcionalidade e as
-              respectivas condições na nossa página principal. A bandeira
-              Mastercard também proporciona muitos benefícios aos nossos
-              clientes.
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-      </main>
+        </div>
+      </section>
+      <section class="faq" id="faq">
+        <div class="faq-container">
+          <h3>Perguntas Frequentes</h3>
+
+          <dl class="faq-lista">
+            <div class="faq-item">
+              <dt>O que é o F4Bank? <span class="dt-icon">&#62;</span></dt>
+              <dd>
+                O F4Bank é um banco que desenvolve soluções simples, seguras e
+                100% digitais para sua vida financeira. Hoje, é o maior banco
+                digital independente do Brasil e conta com mais de 30 milhões de
+                clientes em todos os 5.570 municípios do Brasil.
+              </dd>
+            </div>
+
+            <div class="faq-item">
+              <dt>
+                O que é a conta do F4Bank? <span class="dt-icon">&#62;</span>
+              </dt>
+              <dd>
+                A conta do F4Bank é a nossa conta digital e, assim como tudo no
+                F4Bank, foi desenhada para todos que desejam um serviço
+                transparente, simples e sem tarifas abusivas. Ela foi feita para
+                redefinir a maneira como você cuida do seu dinheiro.
+              </dd>
+            </div>
+            <div class="faq-item">
+              <dt>
+                Quem pode ter a conta do F4Bank?<span class="dt-icon"
+                  >&#62;</span
+                >
+              </dt>
+              <dd>
+                A conta do F4Bank foi feita para todos. Não é preciso passar por
+                uma análise de crédito, você abre sua conta direto no nosso
+                aplicativo, tudo rápido e sem burocracia. Nossas únicas
+                restrições são: ter no mínimo 18 anos, ser residente do Brasil.
+              </dd>
+            </div>
+            <div class="faq-item">
+              <dt>
+                Quais são os benefícios do Cartão de Crédito F4Bank?<span
+                  class="dt-icon"
+                  >&#62;</span
+                >
+              </dt>
+              <dd>
+                Além do controle simples e transparente dos seus gastos em tempo
+                real (sem nenhuma tarifa ou anuidade), você ainda pode receber
+                descontos ao antecipar suas parcelas. No aplicativo você ainda
+                pode bloquear e desbloquear seu cartão, pedir aumento de limite
+                e mudar sua data de vencimento. Outra funcionalidade bem legal é
+                o pagamento por aproximação. Vale conferir cada funcionalidade e
+                as respectivas condições na nossa página principal. A bandeira
+                Mastercard também proporciona muitos benefícios aos nossos
+                clientes.
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-info">
