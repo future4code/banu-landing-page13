@@ -15,9 +15,6 @@
 - Lista de perguntas e respostas
 - Responsividade
 
-## O que não funciona
-
-- Os botões
 
 ## Integrantes
 
